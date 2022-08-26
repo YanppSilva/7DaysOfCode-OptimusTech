@@ -1,0 +1,91 @@
+html {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+}
+
+header {
+    height: 60px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1em 7em 0;
+}
+
+.logo {
+    width: 148px;
+    height: 27px;
+    cursor: pointer;
+}
+
+.menu {
+    align-items: center;
+    display: flex;
+    font-size: 16px;
+    font-weight: 500;
+    gap: 32px;
+    line-height: 24px;
+    height: 32px;
+    padding: 0;
+    width: 362px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #667085;
+}
+
+.menu a:hover {
+    text-decoration: underline #8E2424 2px;
+    margin-bottom: 2px;
+}
+
+.botao_cadastro {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 40px;
+    gap: 12px;
+    transform: scale(.5em);
+}
+
+.botao__entrar {
+    
+    color: #667085;
+    cursor:pointer;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    width: 83px;
+    height: 44px;
+    border: none;
+    border-radius: 8px;
+    background: none;
+    
+}
+
+.botao__cadastrar {
+    
+    color: #FFFFFF;
+    cursor:pointer;
+    background: #8E2424;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    width: 112px;
+    height: 44px;
+}
+
+.botao__cadastrar:hover {
+    background: #721f1f;
+    font-size: 17px;
+}
+
+.botao__entrar:hover {
+    background-color: #e8e8e8;
+    font-size: 17px;
+}
