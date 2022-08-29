@@ -1,0 +1,88 @@
+@media (max-width: 1440px) {
+    .links {
+        width: 70%;
+    }
+
+    .menu {
+        font-size: 18px;
+        width: 70%;
+    }
+}
+
+@media (max-width: 1024px) {
+    .logo img {
+        width: 165px;
+    }
+
+    .navbar {
+        padding: 1em 3em 0;
+    }
+
+    .links {
+        width: 100%
+    }
+
+    .menu {
+        margin-left: 125px;
+    }
+
+    .sobre_nos {
+        width: 100%;
+        padding: 1rem;
+    }
+    
+    .sobre_nos__cabecalho {
+        font-size: 24px;
+        margin-top: 60px;
+        margin-bottom: 25px;
+        width: 50%;
+        text-align: center;
+    }
+
+    .sobre_nos__titulos {
+        margin-bottom: 25px;
+        width: 90%;
+        text-align: center;
+    }
+
+    .sobre_nos__descricao {
+        width: 90%;
+    }
+}
+
+@media (max-width: 768px) {
+    .menu {
+        display: none;
+    }
+}
+
+@media (max-width: 425px) {
+    
+    .navbar {
+        padding: 1em 2em 0;
+    }
+    
+    .botao_cadastro {
+        display: none;
+    }
+    
+    .sobre_nos {
+        /* margin: 100px 0 0 0; */
+        padding: 0;
+    }
+    .sobre_nos__cabecalho {
+        font-size: 22px;
+        margin-bottom: 30px;
+        width: 100%;
+    }
+
+    .sobre_nos__titulos {
+        font-size: 36px;
+        margin-bottom: 65px;
+    }
+    
+    .sobre_nos__descricao {
+        height: 150px;
+    }
+
+}
