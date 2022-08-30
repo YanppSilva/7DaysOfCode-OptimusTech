@@ -7,6 +7,10 @@
         font-size: 18px;
         width: 70%;
     }
+
+    .banner_vagas {
+        width: 80%
+    }
 }
 
 @media (max-width: 1024px) {
@@ -51,10 +55,15 @@
 
     .metricas_container {
         flex-wrap: wrap;
+        height: auto;
     }
 
     .metricas {
         margin-bottom: 70px;
+    }
+
+    .badge {
+        margin-top: 60px;
     }
 }
 

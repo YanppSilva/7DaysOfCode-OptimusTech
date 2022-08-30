@@ -56,7 +56,7 @@ header {
 .menu a {
     text-decoration: none;
     color: var(--text-color);
-    
+
 }
 
 .menu a:hover {
@@ -73,9 +73,9 @@ header {
     transform: scale(.5em);
 }
 
-.botao__entrar {    
+.botao__entrar {
     color: var(--text-color);
-    cursor:pointer;
+    cursor: pointer;
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;
@@ -84,13 +84,13 @@ header {
     border: none;
     border-radius: 8px;
     background: none;
-    
+
 }
 
 .botao__cadastrar {
-    
+
     color: #FFFFFF;
-    cursor:pointer;
+    cursor: pointer;
     background: var(--main-color);
     border: none;
     border-radius: 8px;
@@ -127,51 +127,140 @@ header {
     margin-top: 60px;
     margin-bottom: 25px;
     width: 97px;
- }
+}
 
- .sobre_nos__titulos {
+.sobre_nos__titulos {
     font-size: 48px;
     height: 60px;
     margin-bottom: 25px;
 
- }
+}
 
- .sobre_nos__descricao {
+.sobre_nos__descricao {
     color: var(--text-color);
     font-size: 20px;
     height: 60px;
     line-height: 30px;
     text-align: center;
     width: 60%;
- }
+}
 
- .metricas_container {
+.metricas_container {
     display: flex;
     padding: 0 7em;
     margin-top: 40px;
     justify-content: space-between;
- }
- 
- .metricas {
-    width: 280px;
-    
- }
+    height: 288px;
+}
 
- .metrica_numero {
+.metricas {
+    width: 280px;
+
+}
+
+.metrica_numero {
     color: var(--main-color);
     font-size: 60px;
     font-weight: 600;
     margin-bottom: 12px;
- }
+}
 
- .metrica_titulo {
+.metrica_titulo {
     font-size: 28px;
     font-weight: 500;
     margin-bottom: 8px;
- }
+}
 
- .metrica_descricacao {
+.metrica_descricacao {
     font-size: 16px;
     font-weight: 400;
     color: var(--text-color);
- }
+}
+
+.vagas_container {
+}
+
+.vagas_cabecalho {
+    text-align: center;
+    margin: auto;
+    width: 768px;
+}
+
+.badge {
+    background: rgba(142, 36, 36, 0.05);
+    border-radius: 16px;
+    color: var(--main-color);
+    display: block;
+    font-size: 20px;
+    font-weight: 500;
+    height: 36px;
+    margin: auto;
+    margin-top: 100px;
+    padding: 4px 12px;
+    width: 175px;
+    text-align: center;
+}
+
+.badge_tittle {
+    margin-top: 16px;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+}
+
+.vagas_descricao {
+    margin-top: 36px;
+    font-size: 20px;
+    line-height: 30px;
+    color: var(--text-color);
+}
+
+.banner_vagas {
+    display: block;
+    margin: auto;
+    margin-top: 64px;
+    width: 63.333%;
+}
+
+.vaga_card {
+    display: flex;
+    flex-direction: column;
+    width: 768px;
+    height: auto;
+    margin: auto;
+    margin-top: 64px;
+}
+
+.titulo {
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 32px;
+}
+
+.titulo_vaga {
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 32px;
+    width: 90%;
+}
+
+.vaga {
+    display: flex;
+    flex-direction: column;
+    border: solid 2px #EAECF0;
+    border-radius: 8px;
+    height: 136px;
+    margin-bottom: 12px;
+    padding: 24px 24px 28px;
+}
+
+.informacoes {
+    display: flex;
+    flex-direction: row;
+    font-size: 16px;
+    line-height: 24px;
+    align-items: center;
+    padding: 0px;
+    gap: 24px;
+    color: #667085;
+}
