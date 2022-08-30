@@ -177,13 +177,10 @@ header {
     color: var(--text-color);
 }
 
-.vagas_container {
-}
-
 .vagas_cabecalho {
     text-align: center;
     margin: auto;
-    width: 768px;
+    width: 60%;
 }
 
 .badge {

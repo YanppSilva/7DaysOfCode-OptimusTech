@@ -9,7 +9,7 @@
     }
 
     .banner_vagas {
-        width: 80%
+        width: 82%
     }
 }
 
@@ -56,6 +56,7 @@
     .metricas_container {
         flex-wrap: wrap;
         height: auto;
+        margin-top: 80px;
     }
 
     .metricas {
@@ -74,6 +75,15 @@
 
     .metricas_container {
         padding: 0 3em;
+    }
+
+    .vagas {
+        width: 400px;
+        margin: auto;
+    }
+
+    .vaga_card {
+        width: 100%;
     }
 }
 
@@ -112,6 +122,19 @@
 
     .metricas {
         text-align: center;
+    }
+
+    .vagas {
+        width: 350px;
+        margin: auto;
+    }
+
+    .vagas_cabecalho {
+        width: 95%;
+    }
+
+    .banner_vagas {
+        width: 100%;
     }
 
 }
