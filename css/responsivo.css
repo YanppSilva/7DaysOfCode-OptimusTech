@@ -48,11 +48,23 @@
     .sobre_nos__descricao {
         width: 90%;
     }
+
+    .metricas_container {
+        flex-wrap: wrap;
+    }
+
+    .metricas {
+        margin-bottom: 70px;
+    }
 }
 
 @media (max-width: 768px) {
     .menu {
         display: none;
+    }
+
+    .metricas_container {
+        padding: 0 3em;
     }
 }
 
@@ -83,6 +95,14 @@
     
     .sobre_nos__descricao {
         height: 150px;
+    }
+
+    .metricas_container {
+        justify-content: center;
+    }
+
+    .metricas {
+        text-align: center;
     }
 
 }
