@@ -59,10 +59,27 @@ header {
 
 }
 
-.menu a:hover {
+.menu a::after {
+    background-color: var(--main-color);
+    border-radius: 10px;
+    content: '';
+    display: block;
+    position: relative;
+    height: 2px;
+    transform: scaleX(0);
+    transform-origin: left;
+}
+
+.menu a:hover::after {
+    transform: scaleX(1);
+    transform-origin: left;
+    transition: .4s ease;
+}
+
+/* .menu a:hover {
     text-decoration: underline #8E2424 2px;
     margin-bottom: 2px;
-}
+} */
 
 .botao_cadastro {
     display: flex;
