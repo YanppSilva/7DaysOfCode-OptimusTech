@@ -8,6 +8,8 @@ Usarei conceitos básicos como 'div', 'section', inline para imagens, medidas re
 em CSS, além de coisas mais avançadas como Flexbox, Grid e muitos outros, coisas que qualquer
 pessoa entrando na área de Front-end precisa conhecer.
 
+Responsivo ON!! ;)
+
 Segue o Design Desktop usado como objeto de estudo.
 
 ![read-me](https://user-images.githubusercontent.com/93152439/188207368-e5efc4da-efe4-4e25-bc5c-0f339f0a6424.png)
