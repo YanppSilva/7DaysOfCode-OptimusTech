@@ -278,3 +278,72 @@ header {
     gap: 24px;
     color: #667085;
 }
+
+.feedback_container {
+    display: flex;
+    height: 500px;
+    justify-content: center;
+}
+
+.vagas {
+    margin-bottom: 96px;
+} 
+
+
+.feedback {
+    background: rgba(196, 25, 25, 0.03);
+    display: flex;
+    flex-direction: column;
+    height: 404px;
+    padding: 64px 239px;
+    width: 90%;
+}
+
+.feedback_titulo {
+    color: var(--main-color);
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    margin-bottom: 16px;
+    text-align: center;
+    width: 100%;
+}
+
+.feedback_comentario {
+    width: 100%;
+    height: 88px;
+    font-size: 36px;
+    line-height: 44px;
+    margin-bottom: 32px;
+    text-align: center;
+}
+
+.colaborador {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.colaborador_foto {
+    border-radius: 200px;
+    height: 56px;
+    margin-bottom: 16px;
+    width: 56px;
+}
+
+.colaborador_nome {
+    font-size: 16px;
+    height: 24;
+    line-height: 24px;
+    margin-bottom: 4px;
+    text-align: center;
+    width: 100%;
+}
+
+.colaborador_cargo {
+    color: var(--text-color);
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+}
