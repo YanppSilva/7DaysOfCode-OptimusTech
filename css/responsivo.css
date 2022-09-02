@@ -110,6 +110,10 @@
     .colaborador span {
         font-size: 18px;
     }
+
+    .footer {
+        padding: 96px 150px;
+    }
 }
 
 @media (max-width: 768px) {
@@ -149,6 +153,14 @@
     .colaborador span {
         font-size: 16px;
         height: auto;
+    }
+
+    .footer {
+        padding: 96px 75px;
+    }
+
+    .footer_titulo {
+        font-size: 28px;
     }
 }
 
@@ -209,6 +221,18 @@
 
     .feedback_comentario {
         font-size: 24px;
+    }
+
+    .footer {
+        padding: 96px 37.5px;
+    }
+
+    .footer_titulo {
+        font-size: 26px;
+    }
+
+    .input {
+        width: 180px;
     }
 
 }

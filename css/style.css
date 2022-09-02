@@ -301,7 +301,7 @@ header {
 
 .feedback_titulo {
     color: var(--main-color);
-    font-size: 14px;
+    font-size: 18px;
     font-weight: 600;
     line-height: 20px;
     margin-bottom: 16px;
@@ -345,5 +345,65 @@ header {
     color: var(--text-color);
     font-size: 14px;
     line-height: 20px;
+    text-align: center;
+}
+
+.footer {
+    height: 430px;
+    padding: 96px 300px;
+}
+
+.footer_form {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+.footer_titulo {
+    font-size: 36px;
+    line-height: 44px;
+    margin-bottom: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+.footer_chamada__email {
+    color: var(--text-color);
+    display: block;
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 40px;
+    text-align: center;
+    width: 100%;
+}
+
+.input {
+    align-items: center;
+    background: #FFFFFF;
+    border: 1px solid #D0D5DD;
+    border-radius: 8px;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    color: #667085;
+    gap: 8px;
+    height: 48px;
+    line-height: 24px;
+    margin-right: 16px;
+    outline: 0;
+    padding: 12px 14px 12px 16px;
+    width: 360px;
+}
+
+.input::-webkit-input-placeholder {
+    color: #D0D5DD;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.copyright {
+    color: #98A2B3;
+    font-size: 16px;
+    margin-top: 32px;
     text-align: center;
 }
